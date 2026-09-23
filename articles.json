@@ -2,32 +2,38 @@
   "updated": "2026-09-23",
   "articles": [
     {
-      "category": "Performance",
-      "pmid": "40560504",
-      "title": "Much Ado About Zone 2: A Narrative Review Assessing the Efficacy of Zone 2 Training for Improving Mitochondrial Capacity and Cardiorespiratory Fitness in the General Population",
-      "description": "Argues the evidence does not support Zone 2 as the best intensity for mitochondrial or fat-burning gains in the general population, and that harder efforts deserve a real place in training.",
-      "source": "Sports Med, 2025",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40560504/",
-      "free": false
+      "pmid": "42730846",
+      "title": "Optimising Exercise Prescription: A Meta-Analysis Examining the Dose Response of Exercise Duration on Cardiorespiratory Fitness Following HIIT and MICT",
+      "description": "High-intensity interval training demonstrated a non-linear dose response, with 80% of maximal effect on VO2max in ~11 min/session, whilst MICT required four to five times longer to reach similar responses. The different types of training...",
+      "source": "Sports Med, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42730846/",
+      "free": false,
+      "category": "Performance"
     },
     {
-      "category": "Injury Prevention",
-      "pmid": "35384731",
-      "title": "Evidence-Based Hamstring Injury Prevention and Risk Factor Management: A Systematic Review and Meta-analysis of Randomized Controlled Trials",
-      "description": "A meta-analysis of 108 randomized trials in adult athletes. Eccentric strengthening cut hamstring injury rates by roughly 57 to 70 percent.",
-      "source": "Am J Sports Med, 2023",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/35384731/",
-      "free": false
+      "pmid": "42724261",
+      "title": "Are Comparable Short-term Outcomes Between Hamstring and Quadriceps Tendon Autografts for ACL Reconstruction Statistically Robust? A Reverse Continuous Fragility Index Analysis of Randomized Controlled Trials",
+      "description": "Nonsignificant primary continuous outcomes in RCTs comparing HT and QT autografts for ACLR demonstrated statistical robustness. These findings support the stability of randomized evidence showing comparable short-term continuous outcomes...",
+      "source": "Orthop J Sports Med, 2026",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13558947/",
+      "free": true,
+      "category": "Injury Prevention"
     },
     {
-      "category": "Recovery",
-      "pmid": "",
-      "title": "Monitoring Training Adaptation and Recovery Status in Athletes Using Heart Rate Variability via Mobile Devices: A Narrative Review",
-      "description": "A practical guide to tracking recovery with HRV from wearables and phone apps, with a focus on RMSSD and how to read day-to-day changes.",
-      "source": "Sensors, 2025",
-      "url": "https://www.mdpi.com/1424-8220/26/1/3",
-      "free": true
+      "pmid": "42611173",
+      "title": "Tapering and Peaking in the Weight Lifting Sports: A Systematic Review of Athletes' Self-Reported Strategies",
+      "description": "Tapering in weight lifting sports is typically short and structured, with step tapers, reduced training volume, and lift-specific timing most common, but effectiveness depends on managing both training load and contextual stressors. These...",
+      "source": "Sports Med, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42611173/",
+      "free": false,
+      "category": "Recovery"
     }
   ],
-  "shown": ["35384731", "40560504"]
+  "shown": [
+    "35384731",
+    "40560504",
+    "42611173",
+    "42724261",
+    "42730846"
+  ]
 }
