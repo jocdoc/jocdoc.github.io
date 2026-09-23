@@ -1,0 +1,33 @@
+{
+  "updated": "2026-09-23",
+  "articles": [
+    {
+      "category": "Performance",
+      "pmid": "40560504",
+      "title": "Much Ado About Zone 2: A Narrative Review Assessing the Efficacy of Zone 2 Training for Improving Mitochondrial Capacity and Cardiorespiratory Fitness in the General Population",
+      "description": "Argues the evidence does not support Zone 2 as the best intensity for mitochondrial or fat-burning gains in the general population, and that harder efforts deserve a real place in training.",
+      "source": "Sports Med, 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40560504/",
+      "free": false
+    },
+    {
+      "category": "Injury Prevention",
+      "pmid": "35384731",
+      "title": "Evidence-Based Hamstring Injury Prevention and Risk Factor Management: A Systematic Review and Meta-analysis of Randomized Controlled Trials",
+      "description": "A meta-analysis of 108 randomized trials in adult athletes. Eccentric strengthening cut hamstring injury rates by roughly 57 to 70 percent.",
+      "source": "Am J Sports Med, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35384731/",
+      "free": false
+    },
+    {
+      "category": "Recovery",
+      "pmid": "",
+      "title": "Monitoring Training Adaptation and Recovery Status in Athletes Using Heart Rate Variability via Mobile Devices: A Narrative Review",
+      "description": "A practical guide to tracking recovery with HRV from wearables and phone apps, with a focus on RMSSD and how to read day-to-day changes.",
+      "source": "Sensors, 2025",
+      "url": "https://www.mdpi.com/1424-8220/26/1/3",
+      "free": true
+    }
+  ],
+  "shown": ["35384731", "40560504"]
+}
