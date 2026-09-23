@@ -784,7 +784,57 @@ async function generate() {
   const out = document.getElementById('genOutput');
   const btn = document.getElementById('genBtn');
 
-</body>
+<script>
+// FROM THE FIELD: load this week's articles from articles.json
+// and rebuild the resource cards. If the file can't be loaded,
+// the cards already written in the page stay as they are.
+(function () {
+  var grid = document.querySelector('#resources .res-grid');
+  if (!grid) return;
+
+  fetch('articles.json', { cache: 'no-store' })
+    .then(function (response) {
+      if (!response.ok) throw new Error('articles.json not found');
+      return response.json();
+    })
+    .then(function (data) {
+      if (!data.articles || !data.articles.length) return;
+      grid.innerHTML = '';
+
+      data.articles.forEach(function (a) {
+        // Helper: make an element with a class and text.
+        // textContent (not innerHTML) keeps article text from being run as code.
+        function make(tag, cls, text) {
+          var el = document.createElement(tag);
+          if (cls) el.className = cls;
+          if (text) el.textContent = text;
+          return el;
+        }
+
+        var card = make('div', 'res-card');
+        var top = make('div', 'res-top');
+        top.appendChild(make('div', 'res-cat', a.category));
+        top.appendChild(make('h3', '', a.title));
+        if (a.description) top.appendChild(make('p', '', a.description));
+
+        var footer = make('div', 'res-footer');
+        footer.appendChild(make('span', 'res-date', a.source));
+        var link = make('a', 'res-link', 'Read');
+        link.href = a.url;
+        link.target = '_blank';
+        link.rel = 'noopener';
+        footer.appendChild(link);
+
+        card.appendChild(top);
+        card.appendChild(footer);
+        grid.appendChild(card);
+      });
+    })
+    .catch(function () { /* keep the built-in cards */ });
+})();
+</script>
+
+  </body>
 
   <script type="application/ld+json">
 {
